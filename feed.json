@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T00:25:23Z",
+ "generated": "2026-10-07T00:49:58Z",
  "tier": "public",
  "mission_id": "COL_2026-08-10_us6000tjl2",
  "event": {
@@ -174,6 +174,65 @@
    }
   },
   {
+   "time": null,
+   "source": "uh",
+   "url": null,
+   "confidence": "confirmed",
+   "figure": null,
+   "figure_caption": null,
+   "id": "field-reports-03-04",
+   "date": "2026-09-30",
+   "tags": [
+    "ground-truth",
+    "mission-logistics"
+   ],
+   "city": [
+    "region"
+   ],
+   "title": "Two field reports written: the survey data, and the QField capture workflow",
+   "summary": "Riccardo Vitale documented the survey campaign, which cities were surveyed on which days, how records were cleaned and corrected and how positional uncertainty is flagged, and the QField workflow the teams used to capture assessments. Each report comes with its figures and the script that builds it.",
+   "provenance": "rsde-02: EEFIT_Colombia_2026/reports/03_field_data and 04_qfield; EEFIT folder: diary 2026-09-30",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-07T00:49:55.374776Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-07T00:49:58.113231Z"
+   }
+  },
+  {
+   "time": null,
+   "source": "uh",
+   "url": null,
+   "confidence": "confirmed",
+   "figure": null,
+   "figure_caption": null,
+   "id": "field-returns-qfield-qc",
+   "date": "2026-09-29",
+   "tags": [
+    "ground-truth",
+    "our-analysis"
+   ],
+   "city": [
+    "armenia",
+    "manizales",
+    "pereira",
+    "quimbaya",
+    "sevilla",
+    "cali"
+   ],
+   "title": "Field returns from QField checked building by building: duplicates, locations, footprints",
+   "summary": "Riccardo Vitale consolidated the survey teams' QField GeoPackages into one dataset, removed duplicate records, corrected each building's position against the facade photographs, digitised a footprint for every building and flagged the locations that remain uncertain. The corrected set is the reference the field validation is scored against.",
+   "provenance": "rsde-02: EEFIT_Colombia_2026/Team_Files/Assessments QField; EEFIT folder: field_returns/FINAL_EEFIT_Colombia_2026_field_assessments_corrected_footprints.gpkg, diary 2026-09-30",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-07T00:49:55.346679Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-07T00:49:58.083523Z"
+   }
+  },
+  {
    "id": "native-posting-regen",
    "date": "2026-09-25",
    "time": null,
@@ -225,6 +284,60 @@
     "approved_utc": "2026-10-07T00:25:06.350137Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-07T00:25:14.687110Z"
+   }
+  },
+  {
+   "time": null,
+   "source": "uh",
+   "url": null,
+   "confidence": "confirmed",
+   "figure": null,
+   "figure_caption": null,
+   "id": "umbra-worklist-shared",
+   "date": "2026-09-25",
+   "tags": [
+    "imagery",
+    "mission-logistics"
+   ],
+   "city": [
+    "region"
+   ],
+   "title": "Colombia Umbra scenes split between two operators on the shared worklist",
+   "summary": "The 248 Umbra scenes held on 25 September were divided between Riccardo Vitale and Pietro Milillo, 124 each, so both could geocode in parallel without processing the same scene twice. The worklist grows as collects arrive; it held 272 scenes on 6 October.",
+   "provenance": "SICD_NITF_Geocode_RTC/CLAUDE.md on Carya (dataset Umbra_Colombia_SICD); worklist.py on 2026-10-06",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-07T00:49:55.317688Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-07T00:49:58.051386Z"
+   }
+  },
+  {
+   "time": null,
+   "source": "uh",
+   "url": null,
+   "confidence": "confirmed",
+   "figure": null,
+   "figure_caption": null,
+   "id": "geocoding-standard-shared",
+   "date": "2026-09-24",
+   "tags": [
+    "our-analysis",
+    "imagery"
+   ],
+   "city": [
+    "region"
+   ],
+   "title": "One geocoding standard and one shared tool for every Umbra scene",
+   "summary": "Riccardo Vitale's SICD_NITF_Geocode_RTC, a terrain geocoder for Umbra spotlight SICD that needs no GAMMA licence, became the group's binding standard: each scene is posted at its own native cell, every product lives in one shared data tree, and a worklist assigns each scene to one person.",
+   "provenance": "SICD_NITF_Geocode_RTC/CLAUDE.md on Carya (standard dated 2026-09-24); EEFIT folder: diary/RESEARCH_DIARY.md, 2026-09-25",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-07T00:49:55.289419Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-07T00:49:58.022547Z"
    }
   },
   {
@@ -544,6 +657,33 @@
     "approved_utc": "2026-10-07T00:25:06.536216Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-07T00:25:14.934961Z"
+   }
+  },
+  {
+   "time": null,
+   "source": "uh",
+   "url": null,
+   "confidence": "confirmed",
+   "figure": null,
+   "figure_caption": null,
+   "id": "field-objectives-brief",
+   "date": "2026-09-05",
+   "tags": [
+    "mission-logistics",
+    "ground-truth"
+   ],
+   "city": [
+    "region"
+   ],
+   "title": "Field objectives brief for the EEFIT team: 18 remote sensing objectives",
+   "summary": "Compiled by the UH remote sensing group, Pietro Milillo, Riccardo Vitale and Brandon Voelker, for the field team deploying 15 to 26 September: what to survey and where, so that field grades can be used to calibrate satellite damage products. A machine-readable version travels with the brief.",
+   "provenance": "EEFIT folder: report/objectives/objectives.json and OBJECTIVES_RATIONALE.md",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-07T00:49:55.260973Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-07T00:49:57.994362Z"
    }
   },
   {
@@ -1098,6 +1238,32 @@
     "approved_utc": "2026-10-07T00:25:06.899863Z",
     "released_by": "Pietro Milillo",
     "released_utc": "2026-10-07T00:25:15.420741Z"
+   }
+  },
+  {
+   "time": null,
+   "source": "uh",
+   "url": null,
+   "confidence": "confirmed",
+   "figure": null,
+   "figure_caption": null,
+   "id": "uh-remote-team-formed",
+   "date": "2026-09-01",
+   "tags": [
+    "mission-logistics"
+   ],
+   "city": [
+    "region"
+   ],
+   "title": "UH remote support team formed for the EEFIT field mission",
+   "summary": "Pietro Milillo confirmed University of Houston support to the EEFIT field team. Riccardo Vitale and Brandon Voelker coordinate the remote work with the field team in tandem.",
+   "provenance": "EEFIT folder: Emails (UH reply of 1 Sep 2026), report/site/feed.json item email-uh-reply",
+   "publication": {
+    "state": "public",
+    "approved_by": "Pietro Milillo",
+    "approved_utc": "2026-10-07T00:49:55.232169Z",
+    "released_by": "Pietro Milillo",
+    "released_utc": "2026-10-07T00:49:57.965801Z"
    }
   },
   {
