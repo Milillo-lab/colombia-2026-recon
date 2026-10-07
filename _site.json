@@ -1,0 +1,43 @@
+{
+ "schema": "agent-recon/site/v1",
+ "tier": "public",
+ "generated": "2026-10-07T01:07:12Z",
+ "files": [
+  {
+   "path": ".github/ISSUE_TEMPLATE/agent.yml",
+   "sha256": "293a7c12be72e05e781aebe675da93e7a001a3692ef07cee45c6bc83b65c7329"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/comment.yml",
+   "sha256": "51517704bdd301c55e47b97fb2db059cb2450b4cf240fc2ff9daa7a5cd4fc33f"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/config.yml",
+   "sha256": "bff66b172ce66ebb045a09f11e7ee5145e0bc1a9a4032e13bf199c615bc862c4"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/correction.yml",
+   "sha256": "c046d7e380c1dff0e207c0d4ebc8e888cd6290287eff506fa991c72d0236880f"
+  },
+  {
+   "path": ".github/ISSUE_TEMPLATE/source.yml",
+   "sha256": "7cb2fbcaf3dc68fb3de46b973a4c1eee9b84c70f994490670a90dbae09b591f0"
+  },
+  {
+   "path": "commercial.html",
+   "sha256": "512cd897e93aa93e443291baf14dc1c32506e34b8bd2330ae1b6eed6198bc4e9"
+  },
+  {
+   "path": "feed.json",
+   "sha256": "57202407ba38cb4655577677712114e120a7aba8f8806272f4308585fe40159b"
+  },
+  {
+   "path": "index.html",
+   "sha256": "979da2fb19063c649476e2f21e7d32af5273eb3c5c0a5c1942fae58684c34075"
+  },
+  {
+   "path": "work.html",
+   "sha256": "a82e17348ecd42073daf9b2a221ecda205a2bf37d568ab0ed43e95ebf7794716"
+  }
+ ]
+}

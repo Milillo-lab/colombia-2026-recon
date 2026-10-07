@@ -1,0 +1,6 @@
+# Written by agent-recon (agent_recon/publish/comments.py); the deploy copies it to Milillo-lab/colombia-2026-recon/.github/ISSUE_TEMPLATE/.
+blank_issues_enabled: false
+contact_links:
+- name: The mission site
+  url: https://milillo-lab.github.io/colombia-2026-recon/
+  about: 'Read the items first: each card shows its id, which goes in brackets in the title of your issue.'
