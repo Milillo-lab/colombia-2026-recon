@@ -18,4 +18,6 @@ who. Results that belong to papers in preparation are held until those papers ar
 This repository is written by `recon publish deploy`; edits made here by hand are overwritten on the next
 deployment, except this README.
 
+This work was funded by the NASA NISAR DART and NASA CSDSA Programs.
+
 Text of the site: CC BY 4.0. Products and data belong to their producers and are linked at source.
