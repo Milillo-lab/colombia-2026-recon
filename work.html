@@ -144,6 +144,7 @@ footer .cnote{flex-basis:100%;order:-1;font-size:13.5px;color:var(--text)}
 /* funding: fixed text on every page, never hidden, never faint */
 footer .funding{margin:0 auto 10px;font-size:13.5px;font-weight:500;color:var(--text);line-height:1.5}
 #acknowledgements .ack{font-size:15px;color:var(--text);max-width:78ch;margin:0 0 10px;white-space:pre-line}
+footer .views{margin:0 auto 12px;font-size:12.5px;color:var(--text-muted);line-height:1.5;max-width:1120px}
 
 /* work log ---------------------------------------------------------- */
 /* Status colours are their own tokens, distinct from the UH red accent; every pill also carries its word. */
@@ -261,13 +262,13 @@ footer .funding{margin:0 auto 10px;font-size:13.5px;font-weight:500;color:var(--
 <section id="worklog"><div class="wrap">
   <h1 class="section-title">How the work was done</h1>
   <p class="wk-lede">AGENT_RECON gathers, processes and proposes; a named person approves each item for the team
-  and releases it to this page. These are counts from the mission's work log and publication ledger, 1281 records
+  and releases it to this page. These are counts from the mission's work log and publication ledger, 1282 records
   since 2 Oct 2026. The records themselves, with file names, hosts and requests, stay with the team.</p>
   <div class="wk-pub">
     <div><h3>Work by kind</h3><div class="wk-tablewrap"><table class="wk-table"><thead><tr><th scope=col>kind</th>
       <th scope=col>records</th><th scope=col>done</th><th scope=col>failed or refused</th><th scope=col>first</th>
-      <th scope=col>last</th></tr></thead><tbody><tr><th scope=row>Transfer</th><td>22</td><td>6</td><td>16</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Tasking</th><td>24</td><td>24</td><td>0</td><td>3 Oct</td><td>3 Oct</td></tr><tr><th scope=row>Inventory</th><td>1</td><td>1</td><td>0</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Publish</th><td>1226</td><td>1226</td><td>0</td><td>2 Oct</td><td>7 Oct</td></tr><tr><th scope=row>Note</th><td>8</td><td>8</td><td>0</td><td>7 Oct</td><td>7 Oct</td></tr></tbody></table></div></div>
-    <div><h3>Records by week</h3><div class="wk-weeks"><div class="wk-wrow"><span class="wk-wk">28 Sep</span><span class="wk-bar" style="width:20.1%"></span><span class="n">214</span></div><div class="wk-wrow"><span class="wk-wk">5 Oct</span><span class="wk-bar" style="width:100.0%"></span><span class="n">1067</span></div></div></div>
+      <th scope=col>last</th></tr></thead><tbody><tr><th scope=row>Transfer</th><td>22</td><td>6</td><td>16</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Tasking</th><td>24</td><td>24</td><td>0</td><td>3 Oct</td><td>3 Oct</td></tr><tr><th scope=row>Inventory</th><td>1</td><td>1</td><td>0</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Publish</th><td>1227</td><td>1227</td><td>0</td><td>2 Oct</td><td>7 Oct</td></tr><tr><th scope=row>Note</th><td>8</td><td>8</td><td>0</td><td>7 Oct</td><td>7 Oct</td></tr></tbody></table></div></div>
+    <div><h3>Records by week</h3><div class="wk-weeks"><div class="wk-wrow"><span class="wk-wk">28 Sep</span><span class="wk-bar" style="width:20.0%"></span><span class="n">214</span></div><div class="wk-wrow"><span class="wk-wk">5 Oct</span><span class="wk-bar" style="width:100.0%"></span><span class="n">1068</span></div></div></div>
   </div>
   <h3 class="wk-h3">Who did the work</h3>
   <p class="wk-lede">The people each item credits for the work it reports, as named on the mission's roster.
@@ -278,14 +279,14 @@ footer .funding{margin:0 auto 10px;font-size:13.5px;font-weight:500;color:var(--
   <h3 class="wk-h3">Who signed what</h3>
   <p class="wk-lede">The software proposed 540 items. Only a person approves, releases, retracts or deploys.</p>
   <div class="wk-tablewrap"><table class="wk-table"><thead><tr><th scope=col>person</th><th scope=col>approved</th>
-    <th scope=col>released</th><th scope=col>retracted</th><th scope=col>deployed</th></tr></thead><tbody><tr><th scope=row><a href="https://milillo.cive.uh.edu" target="_blank" rel="noopener noreferrer">Pietro Milillo</a></th><td>347</td><td>333</td><td>1</td><td>5</td></tr></tbody>
+    <th scope=col>released</th><th scope=col>retracted</th><th scope=col>deployed</th></tr></thead><tbody><tr><th scope=row><a href="https://milillo.cive.uh.edu" target="_blank" rel="noopener noreferrer">Pietro Milillo</a></th><td>347</td><td>333</td><td>1</td><td>6</td></tr></tbody>
     </table></div>
 </div></section>
 </main>
-<footer><p class="funding wrap" role="note">This work was funded by the NASA NISAR DART and NASA CSDSA Programs.</p><div class="wrap frow">
+<footer><p class="funding wrap" role="note">This work was funded by the NASA NISAR DART and NASA CSDSA Programs.</p><p class="views wrap" role="note">Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Aeronautics and Space Administration.</p><div class="wrap frow">
   <span>Milillo Lab · University of Houston</span>
   <span class="cnote">Comments and corrections: open an issue at <a href="https://github.com/Milillo-lab/colombia-2026-recon/issues" rel="noopener">github.com/Milillo-lab/colombia-2026-recon</a> (a free GitHub account is enough; an AI assistant can file it for you).</span>
-  <span>public tier, generated 2026-10-07T01:53:50Z by AGENT_RECON from the publication ledger.</span>
+  <span>public tier, generated 2026-10-07T02:23:02Z by AGENT_RECON from the publication ledger.</span>
 </div></footer>
 <script>
 
