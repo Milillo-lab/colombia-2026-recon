@@ -141,6 +141,10 @@ footer .cnote{flex-basis:100%;order:-1;font-size:13.5px;color:var(--text)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
 
+/* funding: fixed text on every page, never hidden, never faint */
+footer .funding{margin:0 auto 10px;font-size:13.5px;font-weight:500;color:var(--text);line-height:1.5}
+#acknowledgements .ack{font-size:15px;color:var(--text);max-width:78ch;margin:0 0 10px;white-space:pre-line}
+
 /* work log ---------------------------------------------------------- */
 /* Status colours are their own tokens, distinct from the UH red accent; every pill also carries its word. */
 :root{--wk-done-fg:#17663f;--wk-done-bg:#e4f4ea;--wk-done-bd:#a9dcbf;
@@ -257,31 +261,31 @@ footer .cnote{flex-basis:100%;order:-1;font-size:13.5px;color:var(--text)}
 <section id="worklog"><div class="wrap">
   <h1 class="section-title">How the work was done</h1>
   <p class="wk-lede">AGENT_RECON gathers, processes and proposes; a named person approves each item for the team
-  and releases it to this page. These are counts from the mission's work log and publication ledger, 1276 records
+  and releases it to this page. These are counts from the mission's work log and publication ledger, 1278 records
   since 2 Oct 2026. The records themselves, with file names, hosts and requests, stay with the team.</p>
   <div class="wk-pub">
     <div><h3>Work by kind</h3><div class="wk-tablewrap"><table class="wk-table"><thead><tr><th scope=col>kind</th>
       <th scope=col>records</th><th scope=col>done</th><th scope=col>failed or refused</th><th scope=col>first</th>
-      <th scope=col>last</th></tr></thead><tbody><tr><th scope=row>Transfer</th><td>22</td><td>6</td><td>16</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Tasking</th><td>24</td><td>24</td><td>0</td><td>3 Oct</td><td>3 Oct</td></tr><tr><th scope=row>Inventory</th><td>1</td><td>1</td><td>0</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Publish</th><td>1224</td><td>1224</td><td>0</td><td>2 Oct</td><td>7 Oct</td></tr><tr><th scope=row>Note</th><td>5</td><td>5</td><td>0</td><td>7 Oct</td><td>7 Oct</td></tr></tbody></table></div></div>
-    <div><h3>Records by week</h3><div class="wk-weeks"><div class="wk-wrow"><span class="wk-wk">28 Sep</span><span class="wk-bar" style="width:20.2%"></span><span class="n">214</span></div><div class="wk-wrow"><span class="wk-wk">5 Oct</span><span class="wk-bar" style="width:100.0%"></span><span class="n">1062</span></div></div></div>
+      <th scope=col>last</th></tr></thead><tbody><tr><th scope=row>Transfer</th><td>22</td><td>6</td><td>16</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Tasking</th><td>24</td><td>24</td><td>0</td><td>3 Oct</td><td>3 Oct</td></tr><tr><th scope=row>Inventory</th><td>1</td><td>1</td><td>0</td><td>6 Oct</td><td>6 Oct</td></tr><tr><th scope=row>Publish</th><td>1225</td><td>1225</td><td>0</td><td>2 Oct</td><td>7 Oct</td></tr><tr><th scope=row>Note</th><td>6</td><td>6</td><td>0</td><td>7 Oct</td><td>7 Oct</td></tr></tbody></table></div></div>
+    <div><h3>Records by week</h3><div class="wk-weeks"><div class="wk-wrow"><span class="wk-wk">28 Sep</span><span class="wk-bar" style="width:20.1%"></span><span class="n">214</span></div><div class="wk-wrow"><span class="wk-wk">5 Oct</span><span class="wk-bar" style="width:100.0%"></span><span class="n">1064</span></div></div></div>
   </div>
   <h3 class="wk-h3">Who did the work</h3>
   <p class="wk-lede">The people each item credits for the work it reports, as named on the mission's roster.
   Signing an item, below, is a different act from doing the work.</p>
   <div class="wk-tablewrap"><table class="wk-table"><thead><tr><th scope=col>person</th><th scope=col>role</th>
-    <th scope=col>institution</th><th scope=col>items</th><th scope=col>for example</th></tr></thead><tbody><tr><th scope=row>Riccardo Vitale</th><td>SAR processing, field data</td><td>University of Houston</td><td>6</td><td class="wk-wrap">UH remote support team formed for the EEFIT field mission; Field objectives brief for the EEFIT team: 18 remote sensing objectives; One geocoding standard and one shared tool for every Umbra scene; Colombia Umbra scenes split between two operators on the shared worklist and 2 more</td></tr><tr><th scope=row>Pietro Milillo</th><td>PI, remote sensing</td><td>University of Houston</td><td>3</td><td class="wk-wrap">UH remote support team formed for the EEFIT field mission; Field objectives brief for the EEFIT team: 18 remote sensing objectives; Colombia Umbra scenes split between two operators on the shared worklist</td></tr><tr><th scope=row>Brandon Voelker</th><td>Remote support coordination</td><td>University of Houston</td><td>2</td><td class="wk-wrap">UH remote support team formed for the EEFIT field mission; Field objectives brief for the EEFIT team: 18 remote sensing objectives</td></tr></tbody>
+    <th scope=col>institution</th><th scope=col>items</th><th scope=col>for example</th></tr></thead><tbody><tr><th scope=row>Riccardo Vitale</th><td>SAR processing, field data</td><td>University of Houston</td><td>6</td><td class="wk-wrap">UH remote support team formed for the EEFIT field mission; Field objectives brief for the EEFIT team: 18 remote sensing objectives; One geocoding standard and one shared tool for every Umbra scene; Colombia Umbra scenes split between two operators on the shared worklist and 2 more</td></tr><tr><th scope=row><a href="https://milillo.cive.uh.edu" target="_blank" rel="noopener noreferrer">Pietro Milillo</a></th><td>PI, remote sensing</td><td>University of Houston</td><td>3</td><td class="wk-wrap">UH remote support team formed for the EEFIT field mission; Field objectives brief for the EEFIT team: 18 remote sensing objectives; Colombia Umbra scenes split between two operators on the shared worklist</td></tr><tr><th scope=row>Brandon Voelker</th><td>Remote support coordination</td><td>University of Houston</td><td>2</td><td class="wk-wrap">UH remote support team formed for the EEFIT field mission; Field objectives brief for the EEFIT team: 18 remote sensing objectives</td></tr></tbody>
     </table></div>
   <h3 class="wk-h3">Who signed what</h3>
   <p class="wk-lede">The software proposed 540 items. Only a person approves, releases, retracts or deploys.</p>
   <div class="wk-tablewrap"><table class="wk-table"><thead><tr><th scope=col>person</th><th scope=col>approved</th>
-    <th scope=col>released</th><th scope=col>retracted</th><th scope=col>deployed</th></tr></thead><tbody><tr><th scope=row>Pietro Milillo</th><td>347</td><td>333</td><td>1</td><td>3</td></tr></tbody>
+    <th scope=col>released</th><th scope=col>retracted</th><th scope=col>deployed</th></tr></thead><tbody><tr><th scope=row><a href="https://milillo.cive.uh.edu" target="_blank" rel="noopener noreferrer">Pietro Milillo</a></th><td>347</td><td>333</td><td>1</td><td>4</td></tr></tbody>
     </table></div>
 </div></section>
 </main>
-<footer><div class="wrap frow">
+<footer><p class="funding wrap" role="note">This work was funded by the NASA NISAR DART and NASA CSDSA Programs.</p><div class="wrap frow">
   <span>Milillo Lab · University of Houston</span>
   <span class="cnote">Comments and corrections: open an issue at <a href="https://github.com/Milillo-lab/colombia-2026-recon/issues" rel="noopener">github.com/Milillo-lab/colombia-2026-recon</a> (a free GitHub account is enough; an AI assistant can file it for you).</span>
-  <span>public tier, generated 2026-10-07T01:19:31Z by AGENT_RECON from the publication ledger.</span>
+  <span>public tier, generated 2026-10-07T01:45:19Z by AGENT_RECON from the publication ledger.</span>
 </div></footer>
 <script>
 
