@@ -1,5 +1,14 @@
 # Colombia 2026: remote sensing reconnaissance
 
+> [!WARNING]
+> **Research product — work in progress.** This site is an experimental research product of the University of Houston, developed with partner
+> institutions, and is under active development. Its content is provided for research and information only, "as
+> is" and without warranty of any kind, express or implied, including accuracy, completeness or fitness for a
+> particular purpose. It is not an official damage, safety or loss assessment and must not be used for emergency
+> response, life-safety, building-occupancy, insurance or legal decisions. To the fullest extent permitted by
+> law, the authors and their institutions accept no liability for any use of this information.
+> Visitors to the site must accept this before using it.
+
 **Site: https://milillo-lab.github.io/colombia-2026-recon/**
 
 A dated record of the M7.4 earthquake of 10 August 2026 in western Colombia (USGS us6000tjl2): what agencies,
