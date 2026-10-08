@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T02:23:02Z",
+ "generated": "2026-10-08T14:48:25Z",
  "tier": "public",
  "mission_id": "COL_2026-08-10_us6000tjl2",
  "event": {
@@ -72,6 +72,24 @@
    "url": "https://portal.gestiondelriesgo.gov.co"
   },
   {
+   "id": "iom",
+   "name": "International Organization for Migration",
+   "logo": null,
+   "url": "https://www.iom.int"
+  },
+  {
+   "id": "undp",
+   "name": "UN Development Programme",
+   "logo": null,
+   "url": "https://www.undp.org"
+  },
+  {
+   "id": "eeri",
+   "name": "Earthquake Engineering Research Institute",
+   "logo": "eeri.png",
+   "url": "https://www.eeri.org"
+  },
+  {
    "id": "sgc",
    "name": "Servicio Geológico Colombiano",
    "logo": "sgc.png",
@@ -96,18 +114,6 @@
    "url": "https://emergencia.igac.gov.co"
   },
   {
-   "id": "iom",
-   "name": "IOM Colombia (DTM)",
-   "logo": null,
-   "url": null
-  },
-  {
-   "id": "undp",
-   "name": "UNDP",
-   "logo": null,
-   "url": null
-  },
-  {
    "id": "asocapitales",
    "name": "Asocapitales",
    "logo": null,
@@ -117,12 +123,6 @@
    "id": "airbus",
    "name": "Airbus",
    "logo": "airbus.png",
-   "url": null
-  },
-  {
-   "id": "eeri",
-   "name": "EERI",
-   "logo": "eeri.png",
    "url": null
   },
   {

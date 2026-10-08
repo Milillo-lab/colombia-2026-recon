@@ -1,7 +1,7 @@
 {
  "schema": "agent-recon/site/v1",
  "tier": "public",
- "generated": "2026-10-07T02:23:02Z",
+ "generated": "2026-10-08T14:48:25Z",
  "files": [
   {
    "path": ".github/ISSUE_TEMPLATE/agent.yml",
@@ -25,19 +25,19 @@
   },
   {
    "path": "commercial.html",
-   "sha256": "9591aaf427bcfb4f6dedc5b72d115eb4970fbd3ad6356023e0c022aa4d7714ed"
+   "sha256": "008b4b2424ab9dc7a921121de6f37ae4a4b95f2d844c108d7932947ee69d5680"
   },
   {
    "path": "feed.json",
-   "sha256": "cf7692f7a5f2895eb64734efc8f644c7fb7cc1370ad41a6bd4485735d08b63d3"
+   "sha256": "d4cc9695bc8a8197c5ea1f8d88a473f9c6926c49dddb49cc142993ce507b4474"
   },
   {
    "path": "index.html",
-   "sha256": "994e2a180a2680fe85db8f3f9a7b7b18223ba75e12090638ec2054170c35fee5"
+   "sha256": "a623e0151931d9c3cd214b8c251118c0a541b677ccf28eedb3236406a304c7b8"
   },
   {
    "path": "work.html",
-   "sha256": "19b695b005143545886d2f7f30f48f47893958e772ea526abe3fda3ae8e5e7a3"
+   "sha256": "88152e8a195d98143f0f870f623d345f8a7fce2c26939120897bdbef61213677"
   }
  ]
 }
